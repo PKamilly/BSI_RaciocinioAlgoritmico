@@ -1,1 +1,49 @@
+Linguagem Python.
 
+* Nao utiliza ; no final dos codigos
+
+-----------------------------
+
+DADO
+- Pessoais;
+- Produtos;
+- Pixels;
+- Coordenadas.
+
+PROCESSAMENTO
+- Calculos;
+- Formatacao;
+- Alteracao;
+- Armazenamento.
+
+SAIDA
+- Resultados;
+- Exibicao;
+- Amostragem;
+- Movimentacao.
+
+-----------------------------
+
+Inteiro = int
+Real = float
+Caracteres = string
+Logico = bool (V/F)
+
+INPUT
+  Recebe a informacao em caractere.
+  nomeVariavel=input("Digite um texto aqui")
+
+EXEMPLO
+  Fruta=input("Kiwi")
+
+INT INPUT
+  Recebe a informacao em inteiro.
+  numeroInteiro=int(input("Digite um numero aqui"))
+  idade=int(input("22"))
+
+PRINT
+  Mostra na tela a informacao da variavel.
+  print("Texto qualquer" + variavelTipoTexto)
+
+Imprimir um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
+  print("Texto qualquer" + str(variavelNaoTexto)
