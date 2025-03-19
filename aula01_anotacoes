@@ -23,7 +23,7 @@ SAIDA
 - Movimentacao.
 
 -----------------------------
-
+VARIAVEIS
 Inteiro = int
 Real = float
 Caracteres = string
@@ -42,8 +42,23 @@ INT INPUT
   idade=int(input("22"))
 
 PRINT
-  Mostra na tela a informacao da variavel.
+  Imprime a informacao da variavel.
   print("Texto qualquer" + variavelTipoTexto)
 
-Imprimir um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
+  Imprime um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
   print("Texto qualquer" + str(variavelNaoTexto)
+
+
+OPERACOES ARITMETICOS
+ADICAO
+  x+y
+
+MULTIPLICACAO
+  a*b
+
+SUBTRACAO
+  valor1-valor2
+
+DIVISAO
+  num1/num2
+
