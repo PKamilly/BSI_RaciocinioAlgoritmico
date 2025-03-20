@@ -47,7 +47,10 @@ PRINT
   print("Texto qualquer" + variavelTipoTexto)
 
   Imprime um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
-  print("Texto qualquer" + str(variavelNaoTexto)
+  print("Texto qualquer" + str(variavelNaoTexto))
+
+EXEMPLO
+  print("A fruta e: " + srt(numero))
 
 
 OPERACOES ARITMETICOS
