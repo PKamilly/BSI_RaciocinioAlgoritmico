@@ -46,6 +46,10 @@ PRINT
   Imprime a informacao da variavel.
   print("Texto qualquer" + variavelTipoTexto)
 
+  print(f"primeiro valor {x} e segundo valor {y}")
+  print("primeiro valor {} e segundo valor {}".format(x,y))
+* O X e Y deve estar em ordem.
+
   Imprime um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
   print("Texto qualquer" + str(variavelNaoTexto))
 
