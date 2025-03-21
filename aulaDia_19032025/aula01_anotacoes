@@ -1,8 +1,8 @@
 Linguagem Python.
 
-* Nao utiliza ; no final dos codigos.
-* Para fazer comentarios no meio do codigo, basta colcoar # no comeco.
-* CTRL/ ou CTRL: ou CTRL; deixa tudo que esta selecionado como comentario.
+* Não utiliza ; no final dos códigos.
+* Para fazer comentários no meio do código, basta colcoar # no começo.
+* CTRL/ ou CTRL: ou CTRL; deixa tudo que esta selecionado como comentário.
 -----------------------------
 
 DADO
@@ -17,56 +17,56 @@ PROCESSAMENTO
 - Alteracao;
 - Armazenamento.
 
-SAIDA
+SAÍDA
 - Resultados;
 - Exibicao;
 - Amostragem;
 - Movimentacao.
 
 -----------------------------
-VARIAVEIS
+VARIÁVEIS
 Inteiro = int
 Real = float
 Caracteres = string
 Logico = bool (V/F)
 
 INPUT
-  Recebe a informacao em caractere.
+  Recebe a informação em caractere.
   nomeVariavel=input("Digite um texto aqui")
 
 EXEMPLO
   Fruta=input("Kiwi")
 
 INT INPUT
-  Recebe a informacao em inteiro.
+  Recebe a informação em inteiro.
   numeroInteiro=int(input("Digite um numero aqui"))
   idade=int(input("22"))
 
 PRINT
-  Imprime a informacao da variavel.
+  Imprime a informação da variável.
   print("Texto qualquer" + variavelTipoTexto)
 
   print(f"primeiro valor {x} e segundo valor {y}")
   print("primeiro valor {} e segundo valor {}".format(x,y))
 * O X e Y deve estar em ordem.
 
-  Imprime um texto qualquer mais o valor de uma variavel que nao seja do tipo texto.
+  Imprime um texto qualquer mais o valor de uma variável que não seja do tipo texto.
   print("Texto qualquer" + str(variavelNaoTexto))
 
 EXEMPLO
   print("A fruta e: " + srt(numero))
 
 
-OPERACOES ARITMETICOS
-ADICAO
+OPERAÇOES ARITMÉTICOS
+ADIÇÃO
   x+y
 
-MULTIPLICACAO
+MULTIPLICAÇÃO
   a*b
 
-SUBTRACAO
+SUBTRAÇÃO
   valor1-valor2
 
-DIVISAO
+DIVISÃO
   num1/num2
 
