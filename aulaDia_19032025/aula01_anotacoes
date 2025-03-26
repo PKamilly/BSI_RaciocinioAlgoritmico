@@ -56,6 +56,11 @@ PRINT
 EXEMPLO
   print("A fruta e: " + srt(numero))
 
+  Outro jeito de colocar uma variável junto do texto é usando as chaves ({})
+
+EXEMPLO
+  print("Eu tenho {numero} carros)
+
 
 OPERAÇOES ARITMÉTICOS
 ADIÇÃO
