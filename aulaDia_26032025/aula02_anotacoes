@@ -20,7 +20,7 @@ x = 2*4 == 24/3
 x = Verdadeiro
 
 MÓDULO
-* O módulo tem a mesma propriedade que multiplicação e divisão.
+* O módulo tem a mesma prioridade que multiplicação e divisão.
 Não se faz as vírgulas
 
 EXEMPLO
@@ -28,4 +28,24 @@ EXEMPLO
 -15| 3
 ---
 3  <== resto
+
+OPERADORES LÓGICOS
+AND = &&
+OR = ||
+NOT = !
+
+* PRIORIDADE
+    NOT -> AND -> OR
+
+P         Q
+2>4 AND 3<16
+F         V     = F
+
+P=Falso
+Q=Verdadeiro
+FINAL=Falso
+
+NOT(P) = Verdadeiro
+NOT(2>4)
+    F   = Verdadeiro
 
