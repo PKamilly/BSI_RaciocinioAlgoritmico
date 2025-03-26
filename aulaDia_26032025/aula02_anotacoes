@@ -1,2 +1,31 @@
 LINGUAGEM PYTHON
 
+Mais +
+Menos -
+Dividido /
+Multiplicação *
+Potência **
+
+OPERAÇÕES RELACINAIS
+Igual ==
+Diferente !=
+Maior >
+Menor <
+Maior ou igual >=
+Menor ou igual <= 
+Módulo % (Resto da divisão)
+
+EXEMPLO
+x = 2*4 == 24/3
+x = Verdadeiro
+
+MÓDULO
+* O módulo tem a mesma propriedade que multiplicação e divisão.
+Não se faz as vírgulas
+
+EXEMPLO
+15 % 4
+-15| 3
+---
+3  <== resto
+
