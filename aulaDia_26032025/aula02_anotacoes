@@ -49,3 +49,11 @@ NOT(P) = Verdadeiro
 NOT(2>4)
     F   = Verdadeiro
 
+Negar tudo fica:
+NOT (A, B,C)
+
+Negar somente um fica:
+NOT A, B, C
+(Negará omente o A)
+
+ 
