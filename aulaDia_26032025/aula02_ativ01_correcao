@@ -4,8 +4,8 @@ EXERCICIO 01
 A = 10
 B = 20
 C = 35
-D = 15.0
-E = 3.0
+D = 15
+E = 3
 
 S1A = A + C * 2 - B / A - (A + B)
 S1A = 10 + 35 * 2 - 20 / 10 - (10 + 20)
@@ -17,40 +17,35 @@ S1B = C * 2 + A / B - (B + A)
 S1B = 35 * 2 + 10 / 20 - (20 + 10)
 S1B = 70 + 0.5 - (30)
 S1B = 40.5
-# 
 
 S1C = A + C * 2 - (B / A + A + B)
 S1C = 10 + 35 * 2 - (20 / 10 + 10 + 20)
 S1C = 10 + 70 - (32)
 S1C = 80 - 32
 S1C = 58
-# ERRADO
 
 S1D = A + C * 2 - B / A - (A + B)
 S1D = 10 + 35 * 2 - 20 / 10 - (10 + 20)
 S1D = 10 + 70 - 0.5 - (30)
 S1D = 80 - 30.5
 S1D = 49.5
-# ERRADO
 
 S1E = C * 2 + B / A - (A + B)
 S1E = 35 * 2 + 20 / 10 - (10 + 20)
 S1E = 70 + 2 - (30)
 S1E = 42
-# CORRETO
 
 S1F = C * 2 + A / B - (A + B)
 S1F = 35 * 2 + 10 / 20 - (10 + 20)
 S1F = 70 + 0.5 - (30)
 S1F = 40.5
-# CORRETO
 
 S1G = A + C * 2 - B / A - (A + B)
 S1G = 10 + 35 * 2 - 20 / 10 - (10 + 20)
 S1G = 10 + 70 - 2 - (30)
 S1G = 82 - (30)
 S1G = 52
-# ERRADO
+# E
 
 S1H = C * 2 + B / A - (A + B)
 S1H = 35 * 2 + 20 / 10 - (10 + 20)
@@ -59,15 +54,18 @@ S1H = 42
 # CORRETO
 
 S1I = C * 2 + B / A - (A + B) * 2 ** E
-S1I = 35 * 2 + 20 / 10 - (10 + 20) * 2 ** 3.0
-S1I = 70 + 2 - (30) * 8
+S1I = 35 * 2 + 20 / 10 - (10 + 20) * 2 ** 3
+S1I = 35 * 2 + 20 / 10 - (30) * 8
+S1I = 70 + 2 - 240
 S1I = 72 - 240
 S1I = - 168
 # CORRETO
 
 S1J = A + C * 2 - (B / A + A + B)
 S1J = 10 + 35 * 2 - (20 / 10 + 10 + 20)
-S1J = 10 + 70 - (2 + 30)
+S1J = 10 + 35 * 2 - (2 + 10 + 20)
+S1J = 10 + 35 * 2 - (32)
+S1J = 10 + 70 - (32)
 S1J = 80 - (32)
 S1J = 48
 # CORRETO
@@ -87,54 +85,49 @@ AND
 A | B | S
 V | V | ?
 S = V
-# CORRETO
 
 A | B | S
 V | F | ?
 S = F
-# CORRETO
 
 A | B | S
 F | V | ?
 S = F
-# CORRETO
 
 A | B | S
 F | F | ?
-S = F
-# CORRETO
+S = V
+
+A | B | S
+V | V | ?
+S = V
 =========
 OR
 A | B | S
 V | V | ?
 S = V
-# CORRETO
 
 A | B | S
 V | F | ?
 S = V
-# CORRETO
 
 A | B | S
 F | V | ?
 S = V
-# CORRETO
 
 A | B | S
 F | F | ?
 S = F
-# CORRETO
 =========
 NOT
 A | S
 V | ?
 S = F
-# CORRETO
 =========
 A | S
 F | ?
 S = V
-# CORRETO
+
 ===========================
 EXERCICIO 03
 A = V
@@ -144,26 +137,22 @@ C = F
 S3A= A or B or C
 S3A= V or F or F
 S3A= V
-# CORRETO
 
 S3B= not A and B or C
 S3B= not V and F or F
 S3B= F
-# CORRETO
 
 S3C= not(A and B) and C
 S3C= not(V and F) and F
 S3C= (F and V) and F
 S3C= F and F
 S3C= V
-# ERRADO
 
 S3D= not(not A or not C)
 S3D= not(not V or not F)
 S3D= not(F or V)
 S3D= V or F
 S3D= V
-# ERRADO
 
 ===========================
 EXERCICIO 04
@@ -243,7 +232,6 @@ S4M= (10 ** 2) + (20 ** 2) + (30 ** 2) != (10 * 20 * 30)
 S4M= (100) + (400) + (900) != (6000)
 S4M= 1400 != 6000
 S4M= V
-# CORRETO
 
 S4N= (A * B * C) > (A + B + C)
 S4N= (10 * 20 * 30) > (10 + 20 + 30)
@@ -258,10 +246,9 @@ S4O= V
 
 S4P= (A * B * C) % 2 == 0
 S4P= (10 * 20 * 30) % 2 == 0
-S4P= (7000) % 2 == 0
+S4P= (6000) % 2 == 0
 S4P= 0 == 0
 S4P= V
-# CORRETO
 
 ===========================
 EXERCICIO 05
