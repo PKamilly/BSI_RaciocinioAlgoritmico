@@ -19,7 +19,7 @@ else:
 #exercicio 03
 pdl=int(input("Digite seu Pdl do League of Legends: "))
 
-if pdl < 999:
+if pdl <= 999:
     print("Você esta no ELO Ferro.")
     faltapdl_1 = 1000 - pdl
     print("Faltam ",faltapdl_1," para avancar ao proximo ELO.")
@@ -59,5 +59,5 @@ elif pdl >= 7000 and pdl <= 7999:
     faltapdl_8 = 8000 - pdl
     print("Faltam ",faltapdl_8," para avancar ao proximo ELO.")
 
-elif pdl >= 8000:
+else:
     print("Você esta no ELO Desafiante.")
