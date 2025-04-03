@@ -93,10 +93,11 @@ while True:
         break
 
 # EXERCICIO 02
-print("Você acorda em uma floresta escura e nao se lembra de nada.")
-print("Nao sabe nem como chegou ali.")
+print("Você acorda deitado no chão de uma floresta escura.")
+print("Não se sabe como chegou ali.")
+print("Ao levantar uma gota de suor escorre em seu rosto pálido")
 print("Os feixes do brilho da lua mostram um caminho de terra.")
-print("Você se levanta e segue o caminho.")
+print("você se levanta do chão e segue o caminho.")
 print("Você encontra duas opcoes para seguir.")
 print("As opcoes sao: o caminho da esquerda ou o caminho da direita")
 caminho=str(input("Digite E para ESQUERDA | D para DIREITA: "))
