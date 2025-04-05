@@ -113,9 +113,11 @@ if caminho=="E" or caminho=="e":
     if caminhoE=="S" or "s":
         print("=================")
         print("Sua curiosidade grita alto. VOCÊ DECIDE SEGUIR")
-        print("Você toca na agua com timidez.")
+        print("Você toca com seus pés na agua com timidez.")
         print("'Esta um gelo' - você pensa consigo.")
-        print("Porem mesmo com receio você segue em frente.")
+        print("Voltando seu olhar para o outro lado do rio você observa a luz no mesmo lugar.")
+        print("Mesmo com receio você segue em frente.")
+        print("Andando com cuidado naquela agua ")
         print("A agua sobe lentamente ate seus joelhos.")
         print("Apesar do medo você persiste e chega ao outro lado.")
         print("Olhando para o horizonte a luz foge.")
