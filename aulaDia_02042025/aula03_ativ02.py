@@ -109,7 +109,7 @@ print("----------------------")
 print("Após um tempo caminhando você se depara com uma bifurcação.")
 print("Os caminhos são idênticos")
 print("Seu estômago ronca.")
-print("Você precisa decidir por qual caminho seguir")
+print("Você precisa decidir por qual caminho seguir.")
 print("Digite E para ESQUERDA | D para DIREITA")
 caminho=str(input("R: "))
 
