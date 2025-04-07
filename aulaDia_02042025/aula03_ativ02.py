@@ -95,7 +95,7 @@ while True:
 # EXERCICIO 02
 # Para uma melhor experiência, rode o programa :)
 print("Você acorda deitado no chão de uma floresta escura, não se sabe como chegou ali.")
-print("Tocando em seu rosto para tentar acordar deste sonho, está gelado.")
+print("Tocando em seu rosto para tentar acordar deste sonho, você o sente gelado.")
 print("Meio zonzo e confuso você se senta, ao fazer isto você instantaneamente sente uma fadiga e dor no corpo extrema.")
 print("Em meio ao som ambiental você ouve seu estômago implorando por alimento. Você está faminto.")
 print("Por quanto tempo estava deitado ali? por horas? por dias? ou será por semanas?")
@@ -139,5 +139,5 @@ if caminho=="E" or caminho=="e":
         print("Apesar do medo você persiste contra a leve correntesa e chega ao outro lado.")
         print("Olhando para o horizonte a luz foge.")
         print("O medo e desespero lhe dominam.")
-        print("Derepente surge um pequeno ponto de luz")
-        print("Era apenas um vagalume")
+        print("De repente surge um pequeno ponto de luz")
+        print("Era apenas um vagalume.")
