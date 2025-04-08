@@ -141,3 +141,6 @@ if caminho=="E" or caminho=="e":
         print("O medo e desespero lhe dominam.")
         print("De repente surge um pequeno ponto de luz")
         print("Era apenas um vagalume.")
+    else:
+        print("=================")
+        print("a. VOCÊ DECIDE FICAR")
