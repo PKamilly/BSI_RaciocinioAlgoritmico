@@ -145,4 +145,4 @@ if caminho=="E" or caminho=="e":
         print("=================")
         print("Após observar mais um poucco o rio, o medo lhe consome. VOCÊ DECIDE FICAR.")
         print("Alguns segundos depois você ouve um arbusto se mexer por perto.")
-        print("")
+        print("a")
