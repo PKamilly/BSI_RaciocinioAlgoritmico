@@ -105,11 +105,19 @@ print("Em meio ao som ambiental você ouve seu estômago implorando por alimento
 print("Por quanto tempo estava deitado ali? por horas? por dias? ou será por semanas?")
 print("Analizando ao redor há somente árvores altas, arbustos pequenos e ornamentais e rochas ao chão.")
 print("Os feixes do brilho da lua iluminam levemente a floresta, mostrando um caminho de terra.")
+import time
+tempo=10
+time.sleep(tempo)
+
 print("Seu estômago ronca.")
 print("Sem muitas opções, você se levanta do chão com dificuldades e segue o caminho sem um rumo e sem esperanças.")
 print("----------------------")
 print("5 minutos depois . . .")
 print("----------------------")
+import time
+tempo=4
+time.sleep(tempo)
+    
 print("Após um tempo caminhando você se depara com uma bifurcação.")
 print("Os caminhos são idênticos.")
 print("Seu estômago ronca.")
@@ -123,6 +131,10 @@ if caminho=="E" or caminho=="e":
     print("----------------------")
     print("3 minutos depois . . .")
     print("----------------------")
+    import time
+    tempo=4
+    time.sleep(tempo)
+    
     print("Você chega a um pequeno rio.")
     print("Do outro lado há uma pequena luz ao longe.")
     print("'Aquela luz pode ser um acampamento!' - você pensa consigo coberto de esperança.")
@@ -131,7 +143,9 @@ if caminho=="E" or caminho=="e":
     print("Você deveria seguir em frente?")
     print("Digite S para SIM | N para NÃO")
     rio=str(input("R: "))
+    print("=================")
     ("'Porra' - ",nome," , 2025.")
+    
     if rio=="S" or rio=="s":
         print("=================")
         print("Sua curiosidade grita alto. VOCÊ DECIDE SEGUIR.")
@@ -140,6 +154,10 @@ if caminho=="E" or caminho=="e":
         print("Voltando seu olhar para o outro lado do rio você observa a luz no mesmo lugar.")
         print("Mesmo com receio você segue em frente.")
         print("A cada passo adentro, seu corpo arrepia cada vez mais até alma.")
+        import time
+        tempo=7
+        time.sleep(tempo)
+        
         print("Você ouve algo baixo atrás de si mas ignora, você não se importa e segue adiante.")
         print("A água sobe lentamente até seus joelhos.")
         print("Apesar do medo você persiste contra a leve correntesa e chega ao outro lado.")
@@ -147,7 +165,7 @@ if caminho=="E" or caminho=="e":
         print("O medo e desespero lhe dominam.")
         print("De repente surge um pequeno ponto de luz.")
         print("Era apenas um vagalume.")
-        print
+    
     elif rio=="N" or rio=="n":
         print("=================")
         print("Após analisar mais um poucco o rio, o medo lhe consome. VOCÊ DECIDE FICAR.")
@@ -162,6 +180,10 @@ if caminho=="E" or caminho=="e":
             print("De repente você sente algo no pé e logo em seguida ouve um barulho, um galho se partiu.")
             print("Você paralisa e descobre a origem do barulho, seus pés.")
             print("Você acidentalmente pisou em um galho, estava tão amedrontado que nem notou o caminho a sua volta.")
+            import time
+            tempo=8
+            time.sleep(tempo)
+            
             print("Silêncio.")
             print("Olhando ao redor não pareceu acontecer nada.")
             print("Nenhum peixe pulou da água")
@@ -181,3 +203,4 @@ if caminho=="E" or caminho=="e":
 elif caminho=="D" or caminho=="d":
     print("=================")
     print("Sua intuição te manda seguir pela direita. VOCÊ SEGUE O CAMINHO A DIREITA.")
+    print("")
