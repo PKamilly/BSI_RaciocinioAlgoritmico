@@ -94,6 +94,10 @@ while True:
 
 # EXERCICIO 02
 # Para uma melhor experiência, rode o programa :)
+nome=input("Digite seu nome: ")
+
+print("======================")
+
 print("Você acorda deitado no chão de uma floresta escura, não se sabe como chegou ali.")
 print("Tocando em seu rosto para tentar acordar deste sonho, você o sente gelado.")
 print("Meio zonzo e confuso você se senta, ao fazer isto você instantaneamente sente uma fadiga e dor no corpo extrema.")
@@ -142,6 +146,7 @@ if caminho=="E" or caminho=="e":
         print("O medo e desespero lhe dominam.")
         print("De repente surge um pequeno ponto de luz.")
         print("Era apenas um vagalume.")
+        print("'Porra' - ",nome," , 2025.)
     else:
         print("=================")
         print("Após observar mais um poucco o rio, o medo lhe consome. VOCÊ DECIDE FICAR.")
@@ -156,3 +161,17 @@ if caminho=="E" or caminho=="e":
             print("Você paralisa e descobre a origem do barulho, seus pés.")
             print("Você acidentalmente pisou em um galho, estava tão amedrontado que nem notou o caminho a sua volta.")
             print("Silêncio.")
+            print("Olhando ao redor não pareceu acontecer nada.")
+            print("Nenhum peixe pulou da água")
+            print("Nenhum grillo cantarolava")
+            print("Nenhuma folha caiu de sua árvore.")
+            print("Nenhuma coruja chirriou ao longe.")
+            print("Somente o eterno silêncio.")
+            print("Neste momento você sente o enorme arrependimento engolindo seu corpo.")
+            print("Logo em seguida um vulto preto petróleo com o dobro do seu tamanho surge por entre os arbustos.")
+            print("Aqueles mesmos em que você estava prestes a checar a alguns segundos atrás.")
+            print("O luar da Lua mostra sua verdadeira face peluda em tom cacau.")
+            print("A fera lhe encara.")
+            print("'Porra' - ",nome," , 2025.)
+        else:
+            print("Seu corpo paralisa")
