@@ -126,12 +126,13 @@ if caminho=="E" or caminho=="e":
     print("Você chega a um pequeno rio.")
     print("Do outro lado há uma pequena luz ao longe.")
     print("'Aquela luz pode ser um acampamento!' - você pensa consigo coberto de esperança.")
-    print("Desviando o olhar você observa o reflexo da lua na leve correntesa que se forma e pensa consigo: 'Parece fundo...'")
+    print("Desviando o olhar você observa o reflexo da Lua na leve correntesa que se forma e pensa consigo: 'Parece fundo...'")
     print("Seu estômago ronca.")
     print("Você deveria seguir em frente?")
     print("Digite S para SIM | N para NÃO")
-    caminhoE=str(input("R: "))
-    if caminhoE=="S" or "s":
+    rio=str(input("R: "))
+    ("'Porra' - ",nome," , 2025.")
+    if rio=="S" or rio=="s":
         print("=================")
         print("Sua curiosidade grita alto. VOCÊ DECIDE SEGUIR.")
         print("Focado(a) você toca seus pés na água com timidez.")
@@ -146,15 +147,16 @@ if caminho=="E" or caminho=="e":
         print("O medo e desespero lhe dominam.")
         print("De repente surge um pequeno ponto de luz.")
         print("Era apenas um vagalume.")
-        print("'Porra' - ",nome," , 2025.)
-    else:
+        print
+    elif rio=="N" or rio=="n":
         print("=================")
-        print("Após observar mais um poucco o rio, o medo lhe consome. VOCÊ DECIDE FICAR.")
+        print("Após analisar mais um poucco o rio, o medo lhe consome. VOCÊ DECIDE FICAR.")
         print("Alguns segundos depois você ouve um arbusto se mexer por perto.")
         print("Virando para trás você nota uma sombra em meio aos arbustos.")
         print("Digite S para SIM | N para NÃO")
-        arbusto==str(input("Checar o arbusto? "))
+        arbusto=str(input("Checar o arbusto? "))
         if arbusto=="s" or arbusto=="S":
+            print("=================")
             print("Você é medroso porém curioso. VOCÊ DECIDE CHECAR.")
             print("Receoso você continua lentamente e sente que cada passo parece uma eternidade.")
             print("De repente você sente algo no pé e logo em seguida ouve um barulho, um galho se partiu.")
@@ -167,11 +169,15 @@ if caminho=="E" or caminho=="e":
             print("Nenhuma folha caiu de sua árvore.")
             print("Nenhuma coruja chirriou ao longe.")
             print("Somente o eterno silêncio.")
+            print("Seu estômago ronca.")
             print("Neste momento você sente o enorme arrependimento engolindo seu corpo.")
-            print("Logo em seguida um vulto preto petróleo com o dobro do seu tamanho surge por entre os arbustos.")
+            print("Em seguida um vulto preto petróleo com o dobro do seu tamanho surge por entre os arbustos.")
             print("Aqueles mesmos em que você estava prestes a checar a alguns segundos atrás.")
             print("O luar da Lua mostra sua verdadeira face peluda em tom cacau.")
             print("A fera lhe encara.")
-            print("'Porra' - ",nome," , 2025.)
+            print("'Porra' - ",nome," , 2025.")
         else:
             print("Seu corpo paralisa")
+elif caminho=="D" or caminho=="d":
+    print("=================")
+    print("Sua intuição te manda seguir pela direita. VOCÊ SEGUE O CAMINHO A DIREITA.")
