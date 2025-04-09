@@ -232,7 +232,7 @@ if caminho == "E" or caminho == "e":
             tempo=4
             time.sleep(tempo)
 
-            print("\nEm seguida aquele vulto preto petróleo com o dobro do seu tamanho surge por entre os arbustos.")
+            print("\nEm seguida aquele vulto preto petróleo um pouco maior que seu tamanho surge por entre os arbustos.")
             print("Aqueles mesmos em que você estava prestes a checar a alguns segundos atrás.")
             import time
             tempo=6
@@ -252,7 +252,7 @@ if caminho == "E" or caminho == "e":
             print("\n'Porra' -",nome,", 2025.")
         else:
             print("\nSeu corpo paralisa. VOCÊ NÃO FAZ NADA.")
-            print("De repente o vulto se espreita e para.")
+            print("De repente o vulto diminui, se espreita e para.")
             print("O luar da Lua mostra sua verdadeira face peluda em tom cacau.")
             print("A fera lhe encara.")
             import time
@@ -267,23 +267,19 @@ if caminho == "E" or caminho == "e":
             tempo=8
             time.sleep(tempo)
 
-            print("\nEm um passo em falso você prende seu pé em algo.")
+            print("\nEm um passo em falso você prende seu pé em algo, por conta da fadiga, dor e fome você cansa mais rápido.")
             print("'MERDA!' - você grita e ouve um grunido vindo de trás e se vira.")
             print("A fera peluda não está mais entre os arbustos, ela caminha para perto do rio lhe encarando.")
-            print("Você sente seus olhos arderem e começarem a molhar.")
+            print("Você grita que não é o lanchinho dele e a fera se levanta, ficando em duas patas.")
             print("O desespero lhe consome.")
-            import time
-            tempo=6
-            time.sleep(tempo)
-
-            print("\nPor conta da fadiga, dor e fome você cansa mais rápido mas luta pela sobrevivência.")
-            print("")
+            print("Você sente seus olhos arderem e começarem a molhar.")
 
 elif caminho == "D" or caminho == "d":
     print("\n=================")
     print("'La de cima posso ter uma ampla visão da área' - você fala sozinho. VOCÊ SEGUE O CAMINHO A DIREITA.")
     print("Caminhando por alguns minutos você chega ao pé da montanha.")
     print("Ela é bem íngreme e rochosa.")
+    print("Parece perigoso . . .")
     print("Seu estômago ronca.")
     print("Digite S para SIM | N para NÃO")
     caminhoD = str(input("Seguir e subir a montanha? "))
@@ -295,7 +291,20 @@ elif caminho == "D" or caminho == "d":
         import time
         tempo = 3
         time.sleep(tempo)
-                   
+
         print("\nSubindo com muito cuidado você olha em volta e nota um rio.")
-        print("'Será que eu chegaria naquele rio indo pelo outro caminho?' - você pensa consigo.")
-        print("Distraído com o rio você escorrega e acaba caindo")
+        print("'Será que eu chegaria naquele rio indo pelo outro caminho?' - você pensa consigo distraído com o rio.")
+        import time
+        tempo = 5
+        time.sleep(tempo)
+
+        print("Voltando para a subida você segura em uma rocha instável.")
+        print("Você tenta se segurar mas é em vão.")
+        import time
+        tempo = 4
+        time.sleep(tempo)
+
+        print("\n'Porra' -",nome,", 2025.")
+
+    elif caminhoD=="N" or caminhoD=="n":
+        print("Você acha muito perigoso arriscas. VOCÊ SEGUE O CAMINHO.")
