@@ -311,4 +311,4 @@ elif caminho == "D" or caminho == "d":
 
     elif caminhoD=="N" or caminhoD=="n":
         print("Você acha muito perigoso arriscar. VOCÊ SEGUE O CAMINHO.")
-        
+        print("Sem rumo e esperanças você segue sozinho(a) floresta adentro")
