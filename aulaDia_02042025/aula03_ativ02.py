@@ -198,4 +198,4 @@ elif caminho=="D" or caminho=="d":
     print("Digite S para SIM | N para NÃO")
     montanha=str(input("Seguir e subir a montanha? "))
     if montanha=="S" or montanha=="s":
-        print("")
+        print("'La de cima posso ter uma ampla visão da área' - você pensa consigo mesmo.")
