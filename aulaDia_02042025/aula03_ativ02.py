@@ -270,9 +270,12 @@ if caminho == "E" or caminho == "e":
             print("\nEm um passo em falso você prende seu pé em algo, por conta da fadiga, dor e fome você cansa mais rápido.")
             print("'MERDA!' - você grita e ouve um grunido vindo de trás e se vira.")
             print("A fera peluda não está mais entre os arbustos, ela caminha para perto do rio lhe encarando.")
-            print("Você grita que não é o lanchinho dele e a fera se levanta, ficando em duas patas.")
-            print("O desespero lhe consome.")
-            print("Você sente seus olhos arderem e começarem a molhar.")
+            print("Você grita que não é o lanchinho dele e a fera já proxima do rio se levanta, ficando em duas patas.")
+            import time
+            tempo = 5
+            time.sleep(tempo)
+
+            print("\n'Porra' -", nome, ", 2025.")
 
 elif caminho == "D" or caminho == "d":
     print("\n=================")
@@ -301,10 +304,11 @@ elif caminho == "D" or caminho == "d":
         print("Voltando para a subida você segura em uma rocha instável.")
         print("Você tenta se segurar mas é em vão.")
         import time
-        tempo = 4
+        tempo = 3
         time.sleep(tempo)
 
         print("\n'Porra' -",nome,", 2025.")
 
     elif caminhoD=="N" or caminhoD=="n":
-        print("Você acha muito perigoso arriscas. VOCÊ SEGUE O CAMINHO.")
+        print("Você acha muito perigoso arriscar. VOCÊ SEGUE O CAMINHO.")
+        
