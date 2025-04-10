@@ -47,3 +47,19 @@ while contador<=n:
 print("A soma total de todos os numeros e igual a",soma)
 
 # exercicio 05
+contador=0
+pares=0
+impares=0
+
+while contador<10:
+    numero=int(input("Digite um numero: "))
+    
+    if numero%2==0:
+        pares+=1
+    
+    else:
+        impares+=1
+    
+    contador+=1
+print(f"Pares= {pares}")
+print(f"Impares= {impares}")
