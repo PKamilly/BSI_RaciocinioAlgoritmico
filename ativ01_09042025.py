@@ -35,3 +35,15 @@ total=soma/contador
 print("A media dos numeros e igual a",total)
 
 # exercicio 04
+soma=0
+contador=1
+
+n=int(input("Digite quantos numeros quer somar: "))
+
+while contador<=n:
+    soma+=contador
+    contador+=1
+
+print("A soma total de todos os numeros e igual a",soma)
+
+# exercicio 05
