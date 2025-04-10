@@ -11,3 +11,14 @@ while multiplicador<=10 and numMultip<=10:
     numMultip=numMultip+1
 
 #exercicio 02
+nota=float(input("Digite a sua nota: "))
+if nota>=7:
+    print("Nota valida!")
+else:
+    while nota<=7:
+        print("\nNota invalida!")
+        nota=float(input("Digite a sua nota: "))
+        if nota>=7:
+            print("\nNota valida!")
+
+# exercicio 03
