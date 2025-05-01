@@ -1,0 +1,6 @@
+VETORES
+
+numeros=[10,7,2,15,80]
+o 'numeros' é o nome do vetor.
+ja o '[10,7,2,15,80]' são os valores daqueles numeros.
+o índice deste vetor é 5, sendo 10=0, 7=1, 2=2, 15=3, 80=4.
