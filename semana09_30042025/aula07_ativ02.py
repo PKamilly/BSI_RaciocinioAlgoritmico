@@ -99,7 +99,7 @@ while cont != 10:
     cont += 1
 
 print(a)
-print(maior)
-print(menor)
+print(f"O maior número é {maior}")
+print(f"O menor número é {menor}")
 
 # EXERCÍCIO 07
