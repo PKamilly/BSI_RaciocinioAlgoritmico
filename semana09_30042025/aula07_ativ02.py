@@ -26,9 +26,13 @@ print(a)
 # EXERCÍCIO 03
 cont=0
 a=[]
-while cont != 10: 
+a_quadrado=[]
+while cont != 2: 
     num=float(input("Digite um número real: "))
     cont+=1
     a+=[num]
+    a_quadrado=a**2
 
 print(a)
+print("===========")
+print(a_quadrado)
