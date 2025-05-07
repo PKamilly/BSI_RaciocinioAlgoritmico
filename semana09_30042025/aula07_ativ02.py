@@ -57,3 +57,24 @@ if 0 <= x < 8 and 0 <= y < 8:
     print(f"a soma destas posições é {soma}")
 else:
     print("Posição inválida! Digite uma posição entre 0 e 8.")
+
+# EXERCÍCIO 05
+cont=0
+a=[]
+par=0
+impar=0
+
+while cont != 10: 
+    num=int(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+    if num%2==0:
+        par+=1
+    else:
+        impar+=1
+
+print(a)
+print(f"Dos 10 valores, {par} são pares")
+print(f"Dos 10 valores, {impar} são impares")
+
+# EXERCÍCIO 06
