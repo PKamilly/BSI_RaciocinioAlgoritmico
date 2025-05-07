@@ -81,7 +81,7 @@ print(f"Dos 10 valores, {impar} são impares")
 cont=0
 a=[]
 
-while cont != 4: 
+while cont != 10: 
     num=int(input("Digite um número: "))
     cont+=1
     a+=[num]
@@ -89,7 +89,7 @@ while cont != 4:
 maior=a[0]
 menor=a[0]
 cont=1
-while cont != 4:
+while cont != 10:
     if a[cont] > maior:
         maior = a[cont]
     elif a[cont] < menor:
