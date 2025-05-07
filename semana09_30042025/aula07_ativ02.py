@@ -27,12 +27,15 @@ print(a)
 cont=0
 a=[]
 a_quadrado=[]
-while cont != 2: 
+
+while cont != 10: 
     num=float(input("Digite um número real: "))
     cont+=1
     a+=[num]
-    a_quadrado=a**2
 
 print(a)
 print("===========")
+a_quadrado=[a[0]**2,a[1]**2,a[2]**2,a[3]**2,a[4]**2,a[5]**2,a[6]**2,a[7]**2,a[8]**2,a[9]**2]
 print(a_quadrado)
+
+# EXERCÍCIO 04
