@@ -1,3 +1,5 @@
+# LISTA VETORES
+
 # EXERCÍCIO 01
 a=[1,0,5,-2,-5,7]
 soma=a[0]+a[1]+a[2]
