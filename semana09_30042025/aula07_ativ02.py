@@ -2,7 +2,7 @@
 
 # EXERCÍCIO 01
 a=[1,0,5,-2,-5,7]
-soma=a[0]+a[1]+a[2]
+soma=a[0]+a[1]+a[5]
 
 print(f"soma = {soma}")
 
@@ -75,7 +75,6 @@ while cont != 10:
     else:
         impar+=1
 
-print(a)
 print(f"Dos 10 valores, {par} são pares")
 print(f"Dos 10 valores, {impar} são impares")
 
@@ -99,6 +98,7 @@ while cont != 10:
     cont += 1
 
 print(a)
+print("===========")
 print(f"O maior número é {maior}")
 print(f"O menor número é {menor}")
 
@@ -113,21 +113,17 @@ while cont != 10:
 
 cont=1
 maior=a[0]
-menor=a[0]
 posicaoMaior=0
-posicaoMenor=0
+
 while cont != 10:
     if a[cont] > maior:
         maior = a[cont]
         posicaoMaior=cont
-    elif a[cont] < menor:
-        menor = a[cont]
-        posicaoMenor=cont
     cont += 1
 
 print(a)
+print("===========")
 print(f"O maior número é {maior}, sua posição é {posicaoMaior}")
-print(f"O menor número é {menor}, sua posição é {posicaoMenor}")
 
 # EXERCÍCIO 08
 cont=0
@@ -139,8 +135,6 @@ while cont != 15:
     nota=int(input("Digite a sua nota: "))
     cont+=1
     a+=[nota]
-
-print(a)
 
 cont=0
 while cont != 15: 
@@ -154,7 +148,6 @@ print(media)
 cont=0
 a=[]
 negativo=0
-positivo=0
 somaPositivos=0
 
 while cont != 5: 
@@ -165,11 +158,9 @@ while cont != 5:
     if num < 0:
         negativo+=1
     else:
-        positivo+=1
         somaPositivos=somaPositivos+num
 
-print(f"N total se tem {negativo} numeros negativos")
-print(f"No total se tem {positivo} numeros positivos")
+print(f"No total se tem {negativo} numeros negativos")
 print(f"A soma total dos números positivos é de {somaPositivos}")
 
 # EXERCÍCIO 10
@@ -199,8 +190,35 @@ while cont != 5:
         menor = a[cont]
     cont += 1
 
+print(a)
+print("===========")
 print(f"O maior número é {maior}")
 print(f"O menor número é {menor}")
 print(f"A média de todos os números é {media}")
 
 # EXERCÍCIO 11
+cont=0
+a=[]
+
+while cont != 5: 
+    num=float(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+
+cont=1
+maior=a[0]
+menor=a[0]
+posicaoMaior=0
+posicaoMenor=0
+
+while cont != 5:
+    if a[cont] > maior:
+        maior = a[cont]
+        posicaoMaior=cont
+    else:
+        menor = a[cont]
+        posicaoMenor=cont
+    cont += 1
+
+print(f"O maior número é {maior}, sua posição é {posicaoMaior}")
+print(f"O menor número é {menor}, sua posição é {posicaoMenor}")
