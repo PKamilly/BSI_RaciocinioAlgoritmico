@@ -24,3 +24,11 @@ while cont != 6:
 print(a)
 
 # EXERCÍCIO 03
+cont=0
+a=[]
+while cont != 10: 
+    num=float(input("Digite um número real: "))
+    cont+=1
+    a+=[num]
+
+print(a)
