@@ -130,3 +130,22 @@ print(f"O maior número é {maior}, sua posição é {posicaoMaior}")
 print(f"O menor número é {menor}, sua posição é {posicaoMenor}")
 
 # EXERCÍCIO 08
+cont=0
+a=[]
+media=0
+
+while cont != 15: 
+    nota=int(input("Digite a sua nota: "))
+    cont+=1
+    a+=[nota]
+
+print(a)
+
+cont=0
+while cont != 15: 
+    media+=a[cont]
+    cont+=1
+
+print(media)
+
+# EXERCÍCIO 09
