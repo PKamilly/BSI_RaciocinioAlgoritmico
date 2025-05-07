@@ -78,3 +78,26 @@ print(f"Dos 10 valores, {par} são pares")
 print(f"Dos 10 valores, {impar} são impares")
 
 # EXERCÍCIO 06
+cont=0
+a=[]
+
+while cont != 4: 
+    num=int(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+
+maior=a[0]
+menor=a[0]
+cont=1
+while cont != 4:
+    if a[cont] > maior:
+        maior = a[cont]
+    elif a[cont] < menor:
+        menor = a[cont]
+    cont += 1
+
+print(a)
+print(maior)
+print(menor)
+
+# EXERCÍCIO 07
