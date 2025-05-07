@@ -1,7 +1,16 @@
 # EXERCÍCIO 01
-cont=0
-a=[0,0,0,0,0,0]
-while cont != 6: 
-    num=int(input(f"Por favor digite {cont} números: "))
-    cont+=1
-    a+=[num]
+a=[1,0,5,-2,-5,7]
+soma=a[0]+a[1]+a[2]
+
+print(f"soma = {soma}")
+
+a[4]=100
+
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+print(a[5])
+
+# EXERCÍCIO 02
