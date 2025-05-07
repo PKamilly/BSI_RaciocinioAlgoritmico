@@ -149,3 +149,25 @@ while cont != 15:
 print(media)
 
 # EXERCÍCIO 09
+cont=0
+a=[]
+negativo=0
+positivo=0
+somaPositivos=0
+
+while cont != 5: 
+    num=float(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+    
+    if num < 0:
+        negativo+=1
+    else:
+        positivo+=1
+        somaPositivos=somaPositivos+num
+
+print(f"N total se tem {negativo} numeros negativos")
+print(f"No total se tem {positivo} numeros positivos")
+print(f"A soma total dos números positivos é de {somaPositivos}")
+
+# EXERCÍCIO 10
