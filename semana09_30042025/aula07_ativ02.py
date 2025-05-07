@@ -14,3 +14,13 @@ print(a[4])
 print(a[5])
 
 # EXERCÍCIO 02
+cont=0
+a=[]
+while cont != 6: 
+    num=int(input("Por favor digite um números: "))
+    cont+=1
+    a+=[num]
+
+print(a)
+
+# EXERCÍCIO 03
