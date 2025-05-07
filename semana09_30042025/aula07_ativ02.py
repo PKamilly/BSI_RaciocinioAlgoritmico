@@ -133,6 +133,7 @@ print(f"O menor número é {menor}, sua posição é {posicaoMenor}")
 cont=0
 a=[]
 media=0
+soma=0
 
 while cont != 15: 
     nota=int(input("Digite a sua nota: "))
@@ -143,7 +144,8 @@ print(a)
 
 cont=0
 while cont != 15: 
-    media+=a[cont]
+    soma+=a[cont]
+    media=soma/15
     cont+=1
 
 print(media)
@@ -171,3 +173,34 @@ print(f"No total se tem {positivo} numeros positivos")
 print(f"A soma total dos números positivos é de {somaPositivos}")
 
 # EXERCÍCIO 10
+cont=0
+a=[]
+media=0
+soma=0
+
+while cont != 5: 
+    num=float(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+
+cont=0
+while cont != 5: 
+    soma+=a[cont]
+    media=soma/5
+    cont+=1
+
+cont=1
+maior=a[0]
+menor=a[0]
+while cont != 5:
+    if a[cont] > maior:
+        maior = a[cont]
+    elif a[cont] < menor:
+        menor = a[cont]
+    cont += 1
+
+print(f"O maior número é {maior}")
+print(f"O menor número é {menor}")
+print(f"A média de todos os números é {media}")
+
+# EXERCÍCIO 11
