@@ -39,3 +39,21 @@ a_quadrado=[a[0]**2,a[1]**2,a[2]**2,a[3]**2,a[4]**2,a[5]**2,a[6]**2,a[7]**2,a[8]
 print(a_quadrado)
 
 # EXERCÍCIO 04
+cont=0
+a=[]
+
+while cont != 8: 
+    num=int(input("Digite um número: "))
+    cont+=1
+    a+=[num]
+
+print(a)
+print("Temos 8 elementos, escolha um deles contando de 0 a 7")
+x=int(input("Digite a primeira posição: "))
+y=int(input("Digite a segunda posição: "))
+
+if 0 <= x < 8 and 0 <= y < 8:
+    soma=a[x]+a[y]
+    print(f"a soma destas posições é {soma}")
+else:
+    print("Posição inválida! Digite uma posição entre 0 e 8.")
