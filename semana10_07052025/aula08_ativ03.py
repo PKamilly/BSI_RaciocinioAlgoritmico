@@ -1,0 +1,32 @@
+# EXERCÍCIO 01
+
+
+# EXERCÍCIO 02
+
+
+# EXERCÍCIO 03
+
+
+# EXERCÍCIO 04
+
+
+# EXERCÍCIO 05
+
+
+# EXERCÍCIO 06
+
+
+# EXERCÍCIO 07
+
+
+# EXERCÍCIO 08
+
+
+# EXERCÍCIO 09
+
+
+# EXERCÍCIO 10
+
+
+# EXERCÍCIO 11
+
