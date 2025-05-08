@@ -69,7 +69,25 @@ print(f"Foram encontrados {INIntervalo} números entre 10 e 20.")
 print(f"Foram encontrados {OFFIntervalo} números fora de 10 e 20.")
 
 # EXERCÍCIO 07
+# ARRUMAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+import random
+vetor=[0]*100
+par=[0]*50
+soma=0
+indicePar=0
 
+for i in range(100):
+    vetor[i]=random.randint(1,100)
+    if vetor[i] % 2 == 0:
+        par[indicePar]=vetor[i]
+        indicePar+=1
+        soma+=vetor[i]
+    
+print(f"Numeros do vetor: \n{vetor}")
+print("===========")
+print(f"Numeros pares do vetor: \n{par}")
+print("===========")
+print(f"Soma dos numeros pares: \n{soma}")
 
 # EXERCÍCIO 08
 
