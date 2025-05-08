@@ -24,10 +24,34 @@ else:
 
 
 # EXERCÍCIO 04
+idades=[0]*5
+media=0
+soma=0
 
+for i in range(0,5):
+    idade=int(input("Digite uma idade: "))
+    idades[i]+=idade
+    soma+=idades[i]
+    media=soma/5
+
+print("============")
+print(idades)
+print(media)
 
 # EXERCÍCIO 05
+num=0
+par=0
+impar=0
 
+for i in range(1,10):
+    num=int(input("Digite um número: "))
+    if num % 2 == 0:
+        par+=1
+    else:
+        impar+=1
+
+print(f"Foram encontrados {par} números pares.")
+print(f"Foram encontrados {impar} números impares.")
 
 # EXERCÍCIO 06
 
