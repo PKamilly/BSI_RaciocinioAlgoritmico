@@ -88,8 +88,26 @@ print(f"Numeros pares do vetor: \n{par}")
 print("===========")
 print(f"Soma dos numeros pares: \n{soma}")
 
-# EXERCÍCIO 08
+# EXERCÍCIO 08 - DESAFIO
+vetores = [0] * 10
+posicao = [0] * 10
+maior = vetores[0]
+menor = vetores[0]
 
+for i in range(0, 10):
+    num = int(input("Digite um número: "))
+    vetores[i] += num
+
+    if num > maior:
+        maior += num[i]
+
+    else:
+        print("abobora")
+
+
+print(vetores)
+print(posicao)
+print(maior)
 
 # EXERCÍCIO 09
 
