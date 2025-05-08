@@ -33,7 +33,7 @@ import random
 vetor=[0]*10
 
 for i in range(10):
-    vetor[i]=random.randint(a:1,b:100)
+    vetor[i]=random.randint(1,100)
 
 num=int(input("Digite um numero: "))
 
