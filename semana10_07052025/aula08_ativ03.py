@@ -54,7 +54,19 @@ print(f"Foram encontrados {par} números pares.")
 print(f"Foram encontrados {impar} números impares.")
 
 # EXERCÍCIO 06
+num=0
+INIntervalo=0
+OFFIntervalo=0
 
+for i in range(0,10):
+    num=int(input("Digite um número: "))
+    if 10<num<20:
+        INIntervalo+=1
+    else:
+        OFFIntervalo+=1
+
+print(f"Foram encontrados {INIntervalo} números entre 10 e 20.")
+print(f"Foram encontrados {OFFIntervalo} números fora de 10 e 20.")
 
 # EXERCÍCIO 07
 
