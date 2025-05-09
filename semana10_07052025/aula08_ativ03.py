@@ -89,6 +89,7 @@ print("===========")
 print(f"Soma dos numeros pares: \n{soma}")
 
 # EXERCÍCIO 08 - DESAFIO
+# ARRUMAR !!!!!!!!!!!!!!!!!!!!!!
 vetores = [0] * 10
 posicao = [0] * 10
 maior = vetores[0]
@@ -109,7 +110,24 @@ print(posicao)
 print(maior)
 
 # EXERCÍCIO 09
+# ARRUMAR !!!!!!!!!!!!!!!!!!!!!!
+vogais=0
+consoantes=0
+i=0
 
+texto=str(input("Digite um texto: "))
+
+for letras in texto:
+    print(letras[i])
+
+    if letras[i] == "a" or letras[i] == "e" or letras[i] == "i" or letras[i] == "o" or letras[i] == "u":
+        vogais+=int(letras)
+    else:
+        consoantes+=int(letras)
+
+print("=" * 20)
+print(f"As vogais encontradas sofram: {vogais}")
+print(f"As consoantes encontradas sofram: {consoantes}")
 
 # EXERCÍCIO 10
 
