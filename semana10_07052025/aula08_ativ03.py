@@ -104,7 +104,6 @@ for i in range(0, 10):
     else:
         print("abobora")
 
-
 print(vetores)
 print(posicao)
 print(maior)
