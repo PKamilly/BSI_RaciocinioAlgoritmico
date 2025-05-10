@@ -113,17 +113,18 @@ print(maior)
 # ARRUMAR !!!!!!!!!!!!!!!!!!!!!!
 vogais=0
 consoantes=0
-i=0
+i = 1
 
-texto=str(input("Digite um texto: "))
+texto=input("Digite um texto: ")
 
 for letras in texto:
-    print(letras[i])
+    print(i, letras)
 
     if letras[i] == "a" or letras[i] == "e" or letras[i] == "i" or letras[i] == "o" or letras[i] == "u":
-        vogais+=int(letras)
+        vogais+=1
     else:
-        consoantes+=int(letras)
+        consoantes+=1
+    i += 1
 
 print("=" * 20)
 print(f"As vogais encontradas sofram: {vogais}")
