@@ -110,17 +110,34 @@ print(posicao)
 print(maior)
 
 # EXERCÍCIO 09
-# ARRUMAR !!!!!!!!!!!!!!!!!!!!!!
-vogais=0
 consoantes=0
+vogais=0
+vogalA=0
+vogalE=0
+vogalI=0
+vogalO=0
+vogalU=0
 i = 1
 
 texto=input("Digite um texto: ")
 
 for letras in texto:
-    print(i, letras)
+    print(i, "-", letras)
 
-    if letras[i] == "a" or letras[i] == "e" or letras[i] == "i" or letras[i] == "o" or letras[i] == "u":
+    if letras == "a" or letras == "A":
+        vogalA+=1
+        vogais+=1
+    elif letras == "e" or letras == "E":
+        vogalE+=1
+        vogais+=1
+    elif letras == "i" or letras == "I":
+        vogalI+=1
+        vogais+=1
+    elif letras == "o" or letras == "O":
+        vogalO+=1
+        vogais+=1
+    elif letras == "u" or letras == "U":
+        vogalU+=1
         vogais+=1
     else:
         consoantes+=1
@@ -129,6 +146,12 @@ for letras in texto:
 print("=" * 20)
 print(f"As vogais encontradas sofram: {vogais}")
 print(f"As consoantes encontradas sofram: {consoantes}")
+print("=" * 20)
+print(f"No texto tem {vogalA} vogal(s) A.")
+print(f"No texto tem {vogalE} vogal(s) E.")
+print(f"No texto tem {vogalI} vogal(s) I.")
+print(f"No texto tem {vogalO} vogal(s) O.")
+print(f"No texto tem {vogalU} vogal(s) U.")
 
 # EXERCÍCIO 10
 
