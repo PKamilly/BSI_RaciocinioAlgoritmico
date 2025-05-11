@@ -154,7 +154,43 @@ print(f"No texto tem {vogalO} vogal(s) O.")
 print(f"No texto tem {vogalU} vogal(s) U.")
 
 # EXERCÍCIO 10
+num2=0
+num4=0
+num7=0
+num3=0
+num1=0
+num0=0
+num6=0
+i = 1
 
+vetor=[2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
+
+for letras in vetor:
+
+    if letras == 2:
+        num2+=1
+    elif letras == 4:
+        num4+=1
+    elif letras == 7:
+        num7+=1
+    elif letras == 3:
+        num3+=1
+    elif letras == 1:
+        num1+=1
+    elif letras == 0:
+        num0+=1
+    else:
+        num6+=1
+    i += 1
+
+print("=" * 20)
+print(f"No texto tem {num2} número(s) 2.")
+print(f"No texto tem {num4} número(s) 4.")
+print(f"No texto tem {num7} número(s) 7.")
+print(f"No texto tem {num3} número(s) 3.")
+print(f"No texto tem {num1} número(s) 1.")
+print(f"No texto tem {num0} número(s) 0.")
+print(f"No texto tem {num6} número(s) 6.")
 
 # EXERCÍCIO 11
 
