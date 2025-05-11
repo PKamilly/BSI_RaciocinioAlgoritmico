@@ -193,4 +193,37 @@ print(f"No texto tem {num0} número(s) 0.")
 print(f"No texto tem {num6} número(s) 6.")
 
 # EXERCÍCIO 11
+# ARRUMAR !!!!!!!!!!!!!!!!!!!!!!
+indiceVetorA=0
+indiceVetorB=0
+indiceVetorC=0
 
+for i in range(1,2):
+    indiceVetorA=int(input("Favor defina o valor do vetor A: "))
+    indiceVetorB=int(input("Favor defina o valor do vetor B: "))
+    indiceVetorC=int(input("Favor defina o valor do vetor C: "))
+    print("=" * 20)
+
+    vetorA = [0]
+    vetorB = [0]
+    vetorC = [0]
+
+    for i in range(indiceVetorA):
+        num=input(f"Digite os {indiceVetorA} do vetor A: ")
+        vetorA+=num
+        i+=1
+    print("="*20)
+
+    for i in range(indiceVetorB):
+        num=input(f"Digite os {indiceVetorB} do vetor B: ")
+        vetorB+=num
+        i+=1
+    print("=" * 20)
+
+    vetorC = vetorA + vetorB
+
+    print("=" * 20)
+
+print(f"Valores do vetor A: {vetorA}")
+print(f"Valores do vetor B: {vetorB}")
+print(f"Valores do vetor C: {vetorC}")
