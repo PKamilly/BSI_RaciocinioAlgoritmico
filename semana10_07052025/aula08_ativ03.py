@@ -220,10 +220,6 @@ for i in range(1,2):
         i+=1
     print("=" * 20)
 
-    vetorC = vetorA + vetorB
+    vetorC = vetorA[indiceVetorA] + vetorB[indiceVetorB]
 
-    print("=" * 20)
-
-print(f"Valores do vetor A: {vetorA}")
-print(f"Valores do vetor B: {vetorB}")
 print(f"Valores do vetor C: {vetorC}")
