@@ -198,7 +198,7 @@ indiceVetorA=0
 indiceVetorB=0
 indiceVetorC=0
 
-for i in range(1,2):
+for i in range(0,1):
     indiceVetorA=int(input("Favor defina o valor do vetor A: "))
     indiceVetorB=int(input("Favor defina o valor do vetor B: "))
     indiceVetorC=int(input("Favor defina o valor do vetor C: "))
@@ -211,15 +211,15 @@ for i in range(1,2):
     for i in range(indiceVetorA):
         num=input(f"Digite os {indiceVetorA} do vetor A: ")
         vetorA+=num
+        vetorC = vetorA[i] + vetorB[i]
         i+=1
     print("="*20)
 
     for i in range(indiceVetorB):
         num=input(f"Digite os {indiceVetorB} do vetor B: ")
+        num = vetorA[i] + vetorB[i]
         vetorB+=num
         i+=1
     print("=" * 20)
-
-    vetorC = vetorA[indiceVetorA] + vetorB[indiceVetorB]
 
 print(f"Valores do vetor C: {vetorC}")
