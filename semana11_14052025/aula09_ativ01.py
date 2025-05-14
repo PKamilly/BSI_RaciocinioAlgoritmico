@@ -28,4 +28,12 @@ print(f"Resultado da soma de todos os valores do dado do Jogador 2")
 print(f"Resultado = {somaJogador2}")
 print("="*25)
 
+if somaJogador1 > somaJogador2:
+    print("\nJogador 1 venceu com mais pontos!")
+elif somaJogador2 > somaJogador1:
+    print("\nJogador 2 venceu com mais pontos!")
+else:
+    print("\nEmpate!")
+    print("Ambos os jogadores tiveram os mesmos pontos na soma.")
+
 # Exercício 02
