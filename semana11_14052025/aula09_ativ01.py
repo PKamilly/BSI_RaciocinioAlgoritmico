@@ -37,3 +37,16 @@ else:
     print("Ambos os jogadores tiveram os mesmos pontos na soma.")
 
 # Exercício 02
+lista=[]
+
+for i in range(0,5):
+    num=int(input("Digite um número inteiro: "))
+    if num < 0:
+        print("Número inválido!")
+    lista+=[num]
+
+print(f"Lista: {lista}")
+print(f"Lista ordenada: {sorted(lista)}")
+print(f"Lista inversa: {list(reversed(sorted(lista)))}")
+# Outra opcao de transformar em lista e reverter ela
+# print(sorted(lista, reverse=true))
