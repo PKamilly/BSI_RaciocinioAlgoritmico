@@ -45,8 +45,11 @@ for i in range(0,5):
         print("Número inválido!")
     lista+=[num]
 
-print(f"Lista: {lista}")
+print(f"\nLista: {lista}")
 print(f"Lista ordenada: {sorted(lista)}")
 print(f"Lista inversa: {list(reversed(sorted(lista)))}")
 # Outra opcao de transformar em lista e reverter ela
 # print(sorted(lista, reverse=true))
+print(f"O menor valor da lista é: {min(lista)}")
+print(f"O maior valor da lista é: {max(lista)}")
+print(f"A soma de todos os lavores da lista é: {sum(lista)}")
