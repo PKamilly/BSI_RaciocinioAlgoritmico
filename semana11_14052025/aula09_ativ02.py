@@ -54,3 +54,21 @@ for num in lista:
 print(lista)
 print(f"Os números pares são: {par}")
 print(f"Os números impares são: {impar}")
+
+# EXERCICIO 07
+lista=[]
+par=[]
+impar=[]
+
+for i in range(0,101):
+    lista+=[i]
+
+for num in lista:
+    if num % 2 == 0:
+        par+=[num]
+
+print(lista)
+print("="*25)
+print(f"Os números pares da lista são: {par}")
+
+# EXERCÍCIO 08
