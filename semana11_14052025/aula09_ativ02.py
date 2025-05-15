@@ -41,3 +41,16 @@ print(f"Da lista, a menor palavra é: {min(lista)}")
 print(f"Da lista, a maior palavra é: {max(lista)}")
 
 # EXERCÍCIO 06
+lista=[1,2,3,4,5,6,7,8,9,10]
+par=[]
+impar=[]
+
+for num in lista:
+    if num % 2 == 0:
+        par+=[num]
+    else:
+        impar+=[num]
+
+print(lista)
+print(f"Os números pares são: {par}")
+print(f"Os números impares são: {impar}")
