@@ -72,3 +72,17 @@ print("="*25)
 print(f"Os números pares da lista são: {par}")
 
 # EXERCÍCIO 08
+lista=[]
+elevado=[]
+
+for i in range(1,11):
+    lista+=[i]
+    
+for num in lista:
+    conta=num*2
+    elevado+=[conta]
+
+print(lista)
+print(elevado)
+
+# EXERCÍCIO 09
