@@ -82,7 +82,9 @@ for num in lista:
     conta=num*2
     elevado+=[conta]
 
-print(lista)
-print(elevado)
+print(f"Lista: {lista}")
+print(f"Lista elevado a 2: {elevado}")
+print(f"Soma da lista elevado a 2: {sum(elevado)}")
+
 
 # EXERCÍCIO 09
