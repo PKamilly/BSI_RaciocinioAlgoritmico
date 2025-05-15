@@ -35,3 +35,9 @@ print(lista)
 print(list(reversed(lista)))
 
 # EXERCICIO 05
+lista=["Maçã", "Banana", "Pera", "Morango", "Abacate"]
+
+print(f"Da lista, a menor palavra é: {min(lista)}")
+print(f"Da lista, a maior palavra é: {max(lista)}")
+
+# EXERCÍCIO 06
