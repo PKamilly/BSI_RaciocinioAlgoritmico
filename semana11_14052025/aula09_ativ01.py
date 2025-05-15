@@ -46,6 +46,7 @@ for i in range(0,5):
     lista+=[num]
 
 print(f"\nLista: {lista}")
+print(f"A lista tem o tamanho: {len(lista)}")
 print(f"Lista ordenada: {sorted(lista)}")
 print(f"Lista inversa: {list(reversed(sorted(lista)))}")
 # Outra opcao de transformar em lista e reverter ela
