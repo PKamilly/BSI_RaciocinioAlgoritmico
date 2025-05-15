@@ -86,5 +86,23 @@ print(f"Lista: {lista}")
 print(f"Lista elevado a 2: {elevado}")
 print(f"Soma da lista elevado a 2: {sum(elevado)}")
 
-
 # EXERCÍCIO 09
+import random
+alfabeto=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+letraSecreta = random.choice(alfabeto)
+
+print("Tente adivinhar a letra secreta!")
+
+while True:
+    print(letraSecreta)
+    print("="*25)
+    palpite=str(input("\nDigite o seu palpite: "))
+    
+    if palpite == letraSecreta:
+        print("\nLetra certa!")
+        print("Você ganhou. Parabéns!")
+        break
+    else:
+        print("\nLetra errada.")
+        print("Tente novamente!")
