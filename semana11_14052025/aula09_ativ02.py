@@ -24,3 +24,14 @@ for palavra in frase:
 print(palavra)
 
 # EXERCICIO 04
+lista=[]
+i=1
+
+for i in range(1,11):
+    lista+=[i]
+    i+=1
+
+print(lista)
+print(list(reversed(lista)))
+
+# EXERCICIO 05
