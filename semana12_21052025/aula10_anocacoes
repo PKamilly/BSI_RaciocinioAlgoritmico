@@ -15,3 +15,15 @@ matriz=[
     [0,0,0,0],
     [0,0,X,0]
 ]
+
+Para o dev definir o tamanho
+matriz = [[0]*10] * 10
+
+Para que o usuário defina o tamanho
+linha=int(input("Defina quantas linhas você quer na matriz: "))
+coluna=int(input("Defina quantas colunas você quer na matriz: "))
+
+matriz = [[0]*coluna]*linha
+
+for i in range(linha):
+    print(matriz[i])
