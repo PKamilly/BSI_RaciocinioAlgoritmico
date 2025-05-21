@@ -17,13 +17,13 @@ matriz=[
 ]
 
 Para o dev definir o tamanho
-matriz = [[0]*10] * 10
+    matriz = [[0]*10] * 10
 
 Para que o usuário defina o tamanho
-linha=int(input("Defina quantas linhas você quer na matriz: "))
-coluna=int(input("Defina quantas colunas você quer na matriz: "))
+    linha=int(input("Defina quantas linhas você quer na matriz: "))
+    coluna=int(input("Defina quantas colunas você quer na matriz: "))
 
-matriz = [[0]*coluna]*linha
+    matriz = [[0]*coluna]*linha
 
-for i in range(linha):
-    print(matriz[i])
+    for i in range(linha):
+        print(matriz[i])
