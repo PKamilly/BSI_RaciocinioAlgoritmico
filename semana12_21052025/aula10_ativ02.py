@@ -1,21 +1,28 @@
 # EXERCÍCIO 01
-matriz = [[0]*5] * 5
+matriz=[
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0]
+]
 
-for i in range (5):
+for i in range(5):
+    print(matriz[i])
+print("="*25)
+
+if matriz[0][0]==0:
+    matriz[0][0]=1
+if matriz[1][1]==0:
+    matriz[1][1]=1
+if matriz[2][2]==0:
+    matriz[2][2]=1
+if matriz[3][3]==0:
+    matriz[3][3]=1
+if matriz[4][4]==0:
+    matriz[4][4]=1
+    
+for i in range(5):
     print(matriz[i])
 
-for linha in matriz:
-    for coluna in matriz:
-        if linha==0 & coluna==0:
-            matriz[linha]+=1
-        elif linha==1 & coluna==1:
-            matriz[linha]+=1
-        elif linha==2 & coluna==2:
-            matriz[linha]+=1
-        elif linha==3 & coluna==3:
-            matriz[linha]+=1
-        elif linha==4 & coluna==4:
-            matriz[linha]+=1
-
-print(matriz)
-    
+# EXERCÍCIO 02
