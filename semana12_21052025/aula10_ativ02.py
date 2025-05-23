@@ -48,15 +48,18 @@ posicao2=0
 posicao3=0
 
 if matriz[0][0]==maximo0:
-    posicao0=matriz[0][0]
+    for coluna in matriz[0]:
+        posicao0=matriz[0]
     print(f"O valor maximo e´ {maximo0}")
     print(f"A posicao do valor maximo e´ {posicao0}")
 if matriz[0][1]==maximo0:
-    posicao0=matriz[0][1]
+    for coluna in matriz[1]:
+        posicao0=matriz[0][1]
     print(f"O valor maximo e´ {maximo0}")
     print(f"A posicao do valor maximo e´ {posicao0}")
 if matriz[0][2]==maximo0:
-    posicao0=matriz[0][2]
+    for coluna in matriz[2]:
+        posicao0=matriz[0][2]
     print(f"O valor maximo e´ {maximo0}")
     print(f"A posicao do valor maximo e´ {posicao0}")
 if matriz[0][3]==maximo0:
@@ -117,6 +120,7 @@ if matriz[3][3]==maximo3:
     posicao3=matriz[3][3]
     print(f"O valor maximo e´ {maximo3}")
     print(f"A posicao do valor maximo e´ {posicao3}")
+
 
 # EXERCICIO 03
 matriz=[
