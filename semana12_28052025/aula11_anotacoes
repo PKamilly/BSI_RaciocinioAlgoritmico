@@ -1,0 +1,14 @@
+FUNÇÃO
+
+Blocos de construção.
+Utiliza palavras chave.
+
+BENEFÍCIOS NA UTILIZAÇÃO:
+- Modularidade;
+- Manutenção simplificada;
+- Reutilização de Código;
+- Abstração;
+- Legibilidade e clareza;
+
+COMANDOS:
+def = Define uma função;
