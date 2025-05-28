@@ -10,5 +10,55 @@ BENEFÍCIOS NA UTILIZAÇÃO:
 - Abstração;
 - Legibilidade e clareza;
 
-COMANDOS:
+
+def nome_da_funcao (parametros de entrada):
+    # codigo aqui
+    return algum_valor
+
+- O QUE CADA PARTE DO CÓDIGO FAZ:
 def = Define uma função;
+nome_da_funcao = Nome intuitivo para a função;
+(parametros de entrada) = QUALQUER valor(es) necessário(s) para executar o código;
+# codigo aqui = implementação: código será executado por essfunção;
+return algum_valor = Qualquer tipo de dado que será retornado para onde a função foi chamada.
+
+- PARAMETROS E RETORNOS SÃO OPCIONAIS !!!!!!!!!!!!!!!!!!!!!!!!!!
+
+EX.:
+x=4
+y=2
+soma=x+y
+
+print(soma) # mostra 6
+
+- SEM PARAMETROS E SEM RETORNO:
+def soma():
+    x=4
+    y=2
+    soma=x+y
+
+    print(soma) # mostra 6
+
+soma() # chama a função
+
+- COM PARAMETROS E SEM RETORNO:
+def soma(x,y):
+    soma=x+y
+    print(soma) # mostra 6
+
+soma(4,2)
+
+- COM PARAMETROS E COM RETORNO:
+def soma(x,y):
+    return x+y
+
+print(soma(4,2))
+
+- DEFINICAO DA FUNÇÃO:
+def nome_da_funcao (parametros de entrada):
+    # codigo aqui
+    return algum_valor
+
+- CHAMADA DA FUNÇÃO:
+nome_da_funcao(parametros de entrada)
+
