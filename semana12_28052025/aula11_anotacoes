@@ -18,9 +18,9 @@ def nome_da_funcao (parametros de entrada):
 - O QUE CADA PARTE DO CÓDIGO FAZ:
 def = Define uma função;
 nome_da_funcao = Nome intuitivo para a função;
-(parametros de entrada) = QUALQUER valor(es) necessário(s) para executar o código;
+(parametros de entrada) = QUALQUER valor(es) necessário(s) para executar o código; Valores variáveis
 # codigo aqui = implementação: código será executado por essfunção;
-return algum_valor = Qualquer tipo de dado que será retornado para onde a função foi chamada.
+return algum_valor = Qualquer tipo de dado que será retornado para onde a função foi chamada. Manda o valor para fora da função
 
 - PARAMETROS E RETORNOS SÃO OPCIONAIS !!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -62,3 +62,22 @@ def nome_da_funcao (parametros de entrada):
 - CHAMADA DA FUNÇÃO:
 nome_da_funcao(parametros de entrada)
 
+- Para vários nomes ou textos:
+def imprimir_nome(nome): <- (nome) é o nome da variável
+    print(nome)
+
+imprimir_nome("Marina")
+imprimir_nome("Lucas")
+imprimir_nome("Yuki")
+imprimir_nome("Kaori")
+
+- A variável é definida int, float ou str dependendo do que está sendo incluso na variável!!!!!!!!!!!!!!!!!!
+
+# def criar_vetor():
+#    return [0]*5
+#
+# É igual a:
+#
+# vetor = [0]*5
+
+receber = parametro
