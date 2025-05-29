@@ -68,7 +68,7 @@ imprimir_diagonal(matriz)
 
 # OUTRO JEITO DE FAZER
 def imprimir_diagonal(matriz):
-    for i in range(len(matriz[0]))
+    for i in range(len(matriz[0])):
         print(matriz[i][i])
 
 imprimir_diagonal(matriz)
