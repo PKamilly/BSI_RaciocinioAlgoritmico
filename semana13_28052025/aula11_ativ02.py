@@ -40,30 +40,38 @@ print(f"Na palavra {texto} tem {quantidade} vezes a letra {caractere}")
 
 # EXERCICIO 05
 def menu():
+    print("=" * 25)
     print("CALCULADORA")
-    print("="*25)
+    print("=" * 25)
     print("1. SOMA")
     print("2. SUBTRAÇÃO")
     print("3. MULTIPLICAÇÃO")
     print("4. DIVISÃO")
-    operacao=int(input("Escolha sua opreção: "))
-    print("="*25)
-    
-    num1=int(input("Digite o primeiro valor: "))
-    num2=int(input("Digite o segundo valor: "))
-    print("="*25)
-    return()
-    
-def soma():
-    return print(f"Soma = {num1+num2}")
-def sub():
-    return print(f"Subtração = {num1-num2}")
-def mult():
-    return print(f"Multiplicação = {num1*num2}")
-def div():
-    return print(f"Divisão = {num1/num2}")
+    print("5. SAIR")
+def agradecimentos():
+    print("Obrigada por usar a calculadora!")
+operacao=0
 
-while sair != 5:
+while operacao != 6:
+    menu()
+    print("=" * 25)
+    operacao = int(input("Escolha sua operação: "))
+    print("=" * 25)
+
+    if operacao != 5:
+        num1 = int(input("Digite o primeiro valor: "))
+        num2 = int(input("Digite o segundo valor: "))
+        print("=" * 25)
+
+    def soma():
+        return print(f"Soma = {num1 + num2}")
+    def sub():
+        return print(f"Subtração = {num1 - num2}")
+    def mult():
+        return print(f"Multiplicação = {num1 * num2}")
+    def div():
+        return print(f"Divisão = {num1 / num2}")
+
     if operacao == 1:
         soma()
     if operacao == 2:
@@ -72,3 +80,6 @@ while sair != 5:
         mult()
     if operacao == 4:
         div()
+    if operacao == 5:
+        agradecimentos()
+        break
