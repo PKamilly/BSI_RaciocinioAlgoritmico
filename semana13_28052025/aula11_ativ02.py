@@ -52,16 +52,11 @@ def agradecimentos():
     print("Obrigada por usar a calculadora!")
 operacao=0
 
-while operacao != 6:
+while operacao != 5:
     menu()
     print("=" * 25)
     operacao = int(input("Escolha sua operação: "))
     print("=" * 25)
-
-    if operacao != 5:
-        num1 = int(input("Digite o primeiro valor: "))
-        num2 = int(input("Digite o segundo valor: "))
-        print("=" * 25)
 
     def soma():
         return print(f"Soma = {num1 + num2}")
@@ -72,6 +67,10 @@ while operacao != 6:
     def div():
         return print(f"Divisão = {num1 / num2}")
 
+    if operacao != 5:
+        num1 = int(input("Digite o primeiro valor: "))
+        num2 = int(input("Digite o segundo valor: "))
+        print("=" * 25)
     if operacao == 1:
         soma()
     if operacao == 2:
@@ -83,3 +82,4 @@ while operacao != 6:
     if operacao == 5:
         agradecimentos()
         break
+    
